@@ -4,7 +4,7 @@ var mongoose = require('mongoose');
 var Schema = mongoose.Schema;
 
 var CalendarioSchema = Schema({
-    user: {type: Schema.ObjectId, ref: 'User'},
+    servicio: {type: Schema.ObjectId, ref: 'Servicio'},
     tiempoBase: String,
     
     lunes: String[], 
