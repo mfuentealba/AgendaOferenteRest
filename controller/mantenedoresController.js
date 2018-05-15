@@ -385,14 +385,7 @@ async function getContFollow(userId){
 }
 
 module.exports = {
-    fnHome,
-    fnPruebas,
-    saveUser,
-    loginUser,
-    getUser,
-    getUsers,
-    updateUser,
-    uploadImage,
-    getImageFile,
-    getCounters
+    saveCategoria,
+    saveSubcategoria,
+    saveTipoContrato
 }
